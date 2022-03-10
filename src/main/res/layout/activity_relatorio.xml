@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelatorioActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relatório do Aluno"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:paddingVertical="20sp"
+        />
+
+    <!--    Label and Text 'Nome do Aluno'    -->
+    <LinearLayout style="@style/campos">
+
+        <TextView
+            android:text="Nome do Aluno"
+            style="@style/label" />
+
+        <TextView
+            android:id="@+id/nome"
+            style="@style/input" />
+
+    </LinearLayout>
+    <!--   // Fim Label and Text 'Nome do Aluno'    -->
+
+    <!--    Label and Text 'Nota 1'    -->
+    <LinearLayout style="@style/campos">
+        <TextView
+            android:text="Nota 1"
+            style="@style/label"/>
+        <TextView
+            android:id="@+id/nota1"
+            style="@style/input"/>
+    </LinearLayout>
+    <!--   // Label and Text 'Nota 1'    -->
+
+    <!--    Label and Text 'Nota 2'    -->
+    <LinearLayout style="@style/campos">
+        <TextView
+            android:text="Nota 2"
+            style="@style/label"/>
+        <TextView
+            android:id="@id/nota2"
+            style="@style/input"/>
+    </LinearLayout>
+    <!--    // Label and Text 'Nota 2'    -->
+
+    <!--    Label and Text 'Media'    -->
+    <LinearLayout style="@style/campos">
+        <TextView
+            android:text="Média"
+            style="@style/label"/>
+        <TextView
+            android:id="@+id/media"
+            style="@style/input"/>
+    </LinearLayout>
+    <!--    Label and Text 'Media'    -->
+
+    <!--    Label and Text 'Situação'    -->
+    <LinearLayout style="@style/campos">
+        <TextView
+            android:text="Nota Situação"
+            style="@style/label"/>
+        <TextView
+            android:id="@+id/situacao"
+            style="@style/input"/>
+    </LinearLayout>
+    <!--    Label and Text 'Situação'    -->
+
+
+
+
+</LinearLayout>
